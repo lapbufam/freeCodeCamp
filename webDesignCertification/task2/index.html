@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+        Fusce sit amet bibendum metus, ultrices laoreet velit. Mauris nec
+        pulvinar magna. Cras nec nisl diam. Pellentesque porttitor orci in ipsum
+        sollicitudin varius. Praesent consequat eu diam non vehicula. Praesent
+        commodo velit enim, vel semper sapien finibus vel. Integer cursus
+        gravida elit ut tempor. Suspendisse ultrices volutpat faucibus. Donec
+        dictum, neque in pulvinar dictum, lorem lorem laoreet quam, ut facilisis
+        sem est et risus. Donec interdum mauris non sapien dignissim tincidunt.
+        Phasellus iaculis sapien sed felis porta, a vestibulum felis congue.
+        <br />
+        Donec eleifend nulla et venenatis consequat. Aliquam vestibulum
+        dignissim tincidunt. Nullam varius ex vel augue tincidunt, dictum dictum
+        augue interdum. Sed in urna lacus. Morbi tempus a urna a ornare. Sed
+        porta mauris quis dictum cursus. Phasellus ac convallis orci, ac egestas
+        nisl.
+      </p>
+
+      <form id="survey-form">
+        <div class="field">
+          <label id="name-label" for="name">Nome</label>
+          <input id="name" type="text" />
+        </div>
+        <div class="field">
+          <label for="email" id="email-label">Email</label>
+          <input id="email" type="email" />
+        </div>
+        <div class="field">
+          <label for="age" id="age-label">Idade</label>
+          <input id="age" type="number" min="1" max="100" />
+        </div>
+        <div class="field">
+          <label for="dropdown" id="dropdown-label"
+            >Qual opção descreve melhor a sua colocação profissional?
+          </label>
+          <select name="dropdown" id="dropdown"></select>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
